@@ -50,12 +50,16 @@ main h1{
     align-items: center;
     gap: 100px;
 }
+.container-below img{
+    width: 222px;
+    height: 180px;
+}
 .inner-cont{
     display: flex;
     gap: 230px;
    justify-content: center;
     height: 40px;
-    margin-bottom: 80px;
+    margin-bottom: 50px;
 }
 .card{
     display: flex;
