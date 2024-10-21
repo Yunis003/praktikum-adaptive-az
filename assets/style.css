@@ -121,6 +121,9 @@ main h1{
     .right img{
         width: 140px;
     }
+    .card p{
+        font-size: 10px;
+    }
 }
 @media screen and (min-width:375px) and (max-width:495px){
     .right img{
