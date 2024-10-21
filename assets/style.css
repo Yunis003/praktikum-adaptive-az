@@ -18,8 +18,6 @@ main{
     flex-direction: column;
     justify-content: center;
     gap:50px ;
-    background-color: aqua;
-    
 }
 main h1{
     font-size: 55px;
@@ -57,6 +55,7 @@ main h1{
 }
 .inner-cont{
     display: flex;
+
     justify-content: center;
     height: 40px;
     margin-bottom: 50px;
@@ -68,6 +67,17 @@ main h1{
    
     width: 150px;
     gap: 10px;
+}
+@media screen and (min-width:835px) and (max-width:1060px){
+    .left p{
+        font-size: 18px;
+    }
+    .inner-cont{
+        gap: 20px;
+    }
+    .card{
+        font-size: 12px;
+    }
 }
 @media screen and (max-width:834px) {
     .container-below img{
@@ -98,6 +108,24 @@ main h1{
         gap: 20px;
     }
     
+}
+@media screen and (min-width:376px) and (max-width:681px){
+    .left p{
+        font-size: 12px;
+    }
+}
+@media screen and (min-width:376px) and (max-width:597px){
+    .left p{
+        font-size: 10px;
+    }
+    .right img{
+        width: 140px;
+    }
+}
+@media screen and (min-width:375px) and (max-width:495px){
+    .right img{
+        width: 120px;
+    }
 }
 @media screen and (max-width:375px){
     main {
